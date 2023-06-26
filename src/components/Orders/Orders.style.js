@@ -115,3 +115,12 @@ export const DetailedProduct = styled.div`
     background-color: #FFF;
   }
 `;
+
+export const Button = styled.div`
+  width: 70px;
+  height: 30px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
