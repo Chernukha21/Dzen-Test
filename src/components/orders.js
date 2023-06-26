@@ -1,4 +1,4 @@
-const orders = [
+export const orders = [
     {
         id: 1,
         title: 'Order 1',
@@ -22,12 +22,12 @@ const orders = [
     }
 ]
 
-const products = [
+export const products = [
     {
         id: 1,
         serialNumber: 1234,
         isNew: 1,
-        photo: 'pathToFile.jpg',
+        photo: 'https://target.scene7.com/is/image/Target/AugWk3-0815-Computer_Monitors-01-SB-01-HD_Monitors-210812-1628785544552?wid=521&qlt=80&fmt=webp',
         title: 'Product 1',
         type: 'Monitors',
         specification: 'Specification 1',
@@ -46,8 +46,8 @@ const products = [
         id: 2,
         serialNumber: 1234,
         isNew: 1,
-        photo: 'pathToFile.jpg',
-        title: 'Product 1',
+        photo: 'https://target.scene7.com/is/image/Target/AugWk3-0815-Computer_Monitors-01-SB-01-HD_Monitors-210812-1628785544552?wid=521&qlt=80&fmt=webp',
+        title: 'Product 2',
         type: 'Monitors',
         specification: 'Specification 1',
         guarantee: {
@@ -60,5 +60,5 @@ const products = [
         ],
         order: 2,
         date: '2017-06-29 12:09:33'
-    }
+    },
 ]
